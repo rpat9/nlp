@@ -8,16 +8,10 @@ Exercise 2
 Write regular expressions to match the following classes of strings:
 
 A single determiner. Assume that a, an, and the are the only determiners. Note: determiners can appear at the beginning of a sentence.
-An arithmetic expression using integers, addition, and multiplication, such as 2*35+800. 
+An arithmetic expression using integers, addition, and multiplication, such as 2*35+800.
 
 Include code to test your regular expressions.
-
-Part 2: NLP Workflow
-Select a reasonably sized corpora to pre-process and analyze using the techniques from lecture. The corpora cannot be one that was used in class. The pre-processing should include cleaning, tokenizing, and normalization. The exploratory analysis should include basic information, description, and visualization. This exercise is worth 10 points.
-
-Note: If you are using corpora other than those in NLTK, provide a link to the corpora. Do not attach them to this assignment.
 '''
-import re
 from nltk import re_show
 
 print("\nPART 1: REGULAR EXPRESSIONS - EXERCISE 1")
@@ -74,7 +68,9 @@ examples_single_determiner = ['An apple', 'On the table, there is a fork', 'A li
 run_and_test_patterns(examples_single_determiner, pattern_single_determiner)
 
 # Pattern 2 for part 2 - tested with the same function from part 1
-print("2. An arithmetic expression using integers, addition, and multiplication, such as 2*35+800")
+print("\n2. An arithmetic expression using integers, addition, and multiplication, such as 2*35+800")
 pattern_arithmetic = r'\d+([+*]\d+)+'
 examples_arithmetic = ["2*35+800", "21076341*2+90", "1+2*3"]
 run_and_test_patterns(examples_arithmetic, pattern_arithmetic)
+
+print()
