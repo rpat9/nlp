@@ -108,3 +108,11 @@ wsj_tags_distribution.plot(15, title="Top 15 POS Tags: Wall Street Journal", sho
 
 plt.tight_layout()
 plt.show()
+
+'''
+What did I learn?
+
+- Austen's Emma (fiction) likely contains a higher frequency of personal pronouns (PRP) and verbs due to narrative and dialogue.
+
+- The Wall Street Journal (news/financial) typically contains more proper nouns (NNP) for companies/people and cardinal numbers (CD) for financial data.
+'''
