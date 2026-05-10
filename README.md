@@ -63,6 +63,11 @@ pip install -r requirements.txt
 - **Key Concepts:** Polysemous word analysis, Synonym vs antonym relationships, Analogy solving with word vectors, Gender bias detection in embeddings, Custom embeddings from literary corpora (Gutenberg corpus)
 - **Models Analyzed:** Pre-trained GloVe embeddings (6B tokens, 300d), Custom Word2Vec models trained on: Jane Austen (Emma), Lewis Carroll (Alice in Wonderland), William Shakespeare (Hamlet), Herman Melville (Moby Dick), Walt Whitman (Leaves of Grass)
 
+### Week 7 - Information Extraction & Named Entity Recognition
+- **Topics:** Regular expression-based chunking, Dependency parsing, Named entity recognition (NER)
+- **Key Concepts:** RegExp chunking for noun phrases with gerunds, Dependency parsing with spaCy, NER entity classification (PERSON, ORG, MONEY, etc.)
+- **Dataset Analysis:** Wall Street Journal (WSJ) Treebank Corpus from 1989 - Corporate deal-making and financial market articles, Organization (ORG) entity extraction and analysis, Person identification and tracking, Entity distribution visualization
+
 ## Dependencies
 
 All required libraries are listed in `requirements.txt`. Key packages include:
@@ -102,6 +107,9 @@ For Week 6 embeddings analysis, ensure the GloVe embeddings file is downloaded:
 - Machine learning for NLP
 - Word embeddings and vector semantics
 - Bias detection in NLP models
+- Information extraction and chunking
+- Named entity recognition (NER)
+- Dependency parsing
 
 ---
 
